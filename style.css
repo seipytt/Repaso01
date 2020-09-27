@@ -1,12 +1,32 @@
-* {
-  padding: o;
-}
-
 body {
-  background-color: red;
+  background-color: #1a1a2e;
 }
 
-div {
-  color: black;
+ul {
+  /* IMPORTANTE */
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  /* IMPORTANTE */
+  position: relative;
+}
+
+a {
+  /* era inline */
+  display: block;
+}
+
+ul ul {
+  /* si un ul es padre de otro ul entonces... esto seria el submenu */
+  /* IMPORTANTE */
+  position: absolute;
+  display: none;
+}
+
+/* Al pasar sobre los LI, si tiene un UL, se MOSTRARA */
+ul li:hover ul {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
