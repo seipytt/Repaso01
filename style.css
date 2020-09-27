@@ -3,18 +3,18 @@ body {
 }
 
 ul {
-  /* IMPORTANTE */
   padding: 0;
+  list-style: none;
+  font-size: 0;
+  color: cyan;
 }
 
 li {
   display: inline-block;
-  /* IMPORTANTE */
   position: relative;
 }
 
 a {
-  /* era inline */
   display: block;
 }
 
